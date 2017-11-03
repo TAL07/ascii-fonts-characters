@@ -1,0 +1,25 @@
+{
+	"name" : "axess/formation-php",
+	"authors" : [{
+			"name" : "Dridri",
+			"email" : "thefinaldream@hotmail.fr"
+		}
+	],
+	"minimum-stability": "dev",
+	"require": {
+		"doctrine/orm": "~2.5"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"ASCII\\" : "src/"
+		}
+	},
+	"require-dev": {
+		"phpunit/phpunit": "dev-master"
+	},
+	"autoload-dev" : {
+		"psr-4" : {
+			"ASCII\\Test\\" : "test/"
+		}
+	}
+}

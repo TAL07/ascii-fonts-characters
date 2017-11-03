@@ -1,0 +1,25 @@
+{
+    "/admin": {
+        "GET": {
+          "route": "action",
+          "policy": [
+            "test:check",
+            "test:all",
+            "./subfolder/test2:index"
+          ]
+        },
+        "POST": {
+          "route": "action",
+          "policy": [
+            "test:all",
+          ]
+        }
+     },
+      "/dashboard": {
+        "GET": {
+          "route": "dashboard",
+          }
+      }
+     
+    }
+    
